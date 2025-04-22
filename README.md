@@ -7,13 +7,8 @@ The simulation uses a predefined set of initial conditions that are loaded autom
 2. Switching to Adaptive Traffic Lights
 By default, the simulation uses fixed-time traffic lights.
 To switch to adaptive (dynamic) traffic lights as described in the paper:
-
 Uncomment the call to Calculate_Pressure in the main script.
-
 In the Calculate_Pressure.m file, set the desired cycle_time and minimum green time (min_duration) (the may have some predefined values).
-
 Make sure that the sum of the values in modeDurations (defined in the main script) matches the chosen cycle_time.
-
 Lastly, comment out the block of code in Find_green_times.m that starts right after line 49, under the comment:
-
 _% If you put adaptive signals, remove the following code_
