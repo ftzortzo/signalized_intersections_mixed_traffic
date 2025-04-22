@@ -12,3 +12,6 @@ In the Calculate_Pressure.m file, set the desired cycle_time and minimum green t
 Make sure that the sum of the values in modeDurations (defined in the main script) matches the chosen cycle_time.
 Lastly, comment out the block of code in Find_green_times.m that starts right after line 49, under the comment:
 _% If you put adaptive signals, remove the following code_
+
+## Questions 
+If you face any difficulties or you want to commnt something on the code, feel free to reach us at ft253@cornell.edu
