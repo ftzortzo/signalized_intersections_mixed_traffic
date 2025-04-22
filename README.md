@@ -1,10 +1,10 @@
 # Safe and Efficient Coexistence of Autonomous Vehicles with Human-Driven Traffic at Signalized Intersections
 
-1. ## Running the Simulation
+ ## 1 Running the Simulation
 After downloading the files, the main script to run is Main_Trafficlight.m. When you execute this file, the intersection and traffic simulation will appear.
 The simulation uses a predefined set of initial conditions that are loaded automatically. If you prefer to use new, randomly generated initial conditions, run the Initialize_Cars.m function and make sure to comment out the line in Main_Trafficlight.m that loads the old initial conditions.
 
-2. ## Switching to Adaptive Traffic Lights
+## 2 Switching to Adaptive Traffic Lights
 By default, the simulation uses fixed-time traffic lights.
 To switch to adaptive (dynamic) traffic lights as described in the paper:
 Uncomment the call to Calculate_Pressure in the main script.
