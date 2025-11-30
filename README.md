@@ -14,4 +14,4 @@ Lastly, comment out the block of code in Find_green_times.m that starts right af
 _% If you put adaptive signals, remove the following code_
 
 ## Questions 
-If you face any difficulties or you want to commnent something on the code, feel free to reach us at ft253@cornell.edu
+If you face any difficulties or you want to comment something on the code, feel free to reach us at ft253@cornell.edu
